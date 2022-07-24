@@ -1,0 +1,49 @@
+.App{
+  margin-top: 40px;
+}
+
+.hour .line {
+  border-top: 1px solid black;
+  width: 90vw;
+  margin-top: 20px;
+  height: 70px;
+}
+
+.titleLine{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.task {
+  border: 1px solid dodgerblue;
+  background-color: dodgerblue;
+  color: white;
+  border-radius: 10px;
+  width: fit-content;
+  padding: 5px;
+}
+
+.tasks {
+  display: flex;
+}
+
+.addtask, .edit {
+  position: absolute;
+  top: 0;
+  left: 45%;
+  border: 1px solid tomato;
+  background-color: tomato;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px gray;
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  justify-content: space-around;
+}
+
+.buttons{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
